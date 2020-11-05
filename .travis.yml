@@ -2,7 +2,9 @@
 # Use nix-emacs-ci for travis CI
 # URL: https://github.com/purcell/nix-emacs-ci
 #
-
+arch:
+  - amd64
+  - ppc64le
 language: nix
 
 os:
